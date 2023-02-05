@@ -8,9 +8,9 @@ import NoMatch from './pages/NoMatch';
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Layout />}>
+      <Route path='/web-publishing' element={<Layout />}>
         <Route index element={<Home />} />
-        {/* <Route path='*' element={<NoMatch />} /> */}
+        <Route path='*' element={<NoMatch />} />
       </Route>
     </Routes>
   );
