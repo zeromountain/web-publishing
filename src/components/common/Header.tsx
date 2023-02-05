@@ -6,6 +6,8 @@ const Header = () => {
 };
 
 const Container = styled.header`
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
