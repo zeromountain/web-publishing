@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 import React from "react";
 import AppLayer from "../components/AppLayer";
+import BeforeBorderEffect from "../components/BeforeBorderEffect";
 import CircleLoading from "../components/CircleLoading";
 import DoubleBorder from "../components/DoubleBorder";
 import DropDown from "../components/DropDown";
@@ -30,6 +31,8 @@ const Home = () => {
       <HoverNavigationEffect />
       <Subject>3D Hover Animation</Subject>
       <AppLayer />
+      <Subject>Before / After</Subject>
+      <BeforeBorderEffect />
     </Container>
   );
 };

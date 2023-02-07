@@ -53,7 +53,6 @@ const AppUi = styled.div`
   &: hover > img:nth-of-type(4) {
     transform: translate(160px, -160px);
   }
-  
 `;
 
 export default AppLayer;
