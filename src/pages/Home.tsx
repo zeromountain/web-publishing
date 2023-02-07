@@ -3,6 +3,7 @@ import React from "react";
 import CircleLoading from "../components/CircleLoading";
 import DoubleBorder from "../components/DoubleBorder";
 import DropDown from "../components/DropDown";
+import HoverNavigation from "../components/HoverNavigation";
 import HoverTooltip from "../components/HoverTooltip";
 import ItemList from "../components/ItemList";
 import RectangleLoading from "../components/RectangleLoading";
@@ -21,6 +22,8 @@ const Home = () => {
       <ItemList />
       <Subject>Hover ToolTip</Subject>
       <HoverTooltip />
+      <Subject>Hover Navigation</Subject>
+      <HoverNavigation />
     </Container>
   );
 };
