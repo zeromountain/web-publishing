@@ -16,16 +16,9 @@ const Layout = () => {
   );
 };
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100vh;
-`;
+const Container = styled.div``;
 const Content = styled.div`
-  flex: 1;
-  width: 100%;
   height: 100%;
-  padding: 50px 20px;
+  padding: 0 20px;ˆ
 `;
 export default Layout;

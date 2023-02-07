@@ -3,6 +3,7 @@ import React from 'react';
 import CircleLoading from '../components/CircleLoading';
 import DoubleBorder from '../components/DoubleBorder';
 import DropDown from '../components/DropDown';
+import ItemList from '../components/ItemList';
 import RectangleLoading from '../components/RectangleLoading';
 
 const Home = () => {
@@ -15,6 +16,8 @@ const Home = () => {
       <DoubleBorder />
       <Subject>Drop Down Menu</Subject>
       <DropDown />
+      <Subject>Item List</Subject>
+      <ItemList />
     </Container>
   );
 };
