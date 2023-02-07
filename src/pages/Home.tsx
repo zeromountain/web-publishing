@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import React from "react";
+import AppLayer from "../components/AppLayer";
 import CircleLoading from "../components/CircleLoading";
 import DoubleBorder from "../components/DoubleBorder";
 import DropDown from "../components/DropDown";
@@ -27,6 +28,8 @@ const Home = () => {
       <HoverNavigation />
       <Subject>Hover Nvigation Effect</Subject>
       <HoverNavigationEffect />
+      <Subject>3D Hover Animation</Subject>
+      <AppLayer />
     </Container>
   );
 };
