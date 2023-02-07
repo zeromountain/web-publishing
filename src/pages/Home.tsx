@@ -4,6 +4,7 @@ import CircleLoading from "../components/CircleLoading";
 import DoubleBorder from "../components/DoubleBorder";
 import DropDown from "../components/DropDown";
 import HoverNavigation from "../components/HoverNavigation";
+import HoverNavigationEffect from "../components/HoverNavigationEffect";
 import HoverTooltip from "../components/HoverTooltip";
 import ItemList from "../components/ItemList";
 import RectangleLoading from "../components/RectangleLoading";
@@ -24,6 +25,8 @@ const Home = () => {
       <HoverTooltip />
       <Subject>Hover Navigation</Subject>
       <HoverNavigation />
+      <Subject>Hover Nvigation Effect</Subject>
+      <HoverNavigationEffect />
     </Container>
   );
 };
